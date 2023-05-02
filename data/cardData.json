@@ -1,0 +1,52 @@
+{
+    "chefs": [
+        {
+            "id": 1,
+            "name": "Sanjeev Kapoor",
+            "image": "https://i.ibb.co/PzRJsyd/chef-1.jpg",
+            "experience": 35,
+            "recipes": 500,
+            "rating": 4.5
+        },
+        {
+            "id": 2,
+            "name": "Vikas Khanna",
+            "image": "https://i.ibb.co/Fw9GzmN/chef-2.jpg",
+            "experience": 20,
+            "recipes": 300,
+            "rating": 4.7
+        },
+        {
+            "id": 3,
+            "name": "Tarla Dalal",
+            "image": "https://i.ibb.co/VtfTBnS/chef-3.jpg",
+            "experience": 25,
+            "recipes": 400,
+            "rating": 5
+        },
+        {
+            "id": 4,
+            "name": "Madhur Jaffrey",
+            "image": "https://i.ibb.co/B2T2RSC/chef-4.jpg",
+            "experience": 30,
+            "recipes": 350,
+            "rating": 4.6
+        },
+        {
+            "id": 5,
+            "name": "Nandini",
+            "image": "https://i.ibb.co/bs2h95w/chef-5.jpg",
+            "experience": 15,
+            "recipes": 250,
+            "rating": 4.2
+        },
+        {
+            "id": 6,
+            "name": "Kunal Kapur",
+            "image": "https://i.ibb.co/Y8bhT42/chef-6.jpg",
+            "experience": 10,
+            "recipes": 200,
+            "rating": 4
+        }
+    ]
+}
