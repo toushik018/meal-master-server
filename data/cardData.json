@@ -2,51 +2,433 @@
     "chefs": [
         {
             "id": 1,
-            "name": "Sanjeev Kapoor",
-            "image": "https://i.ibb.co/PzRJsyd/chef-1.jpg",
-            "experience": 35,
-            "recipes": 500,
-            "rating": 4.5
+            "picture": "https://i.ibb.co/B2T2RSC/chef-4.jpg",
+            "name": "Madhur Jaffrey",
+            "description": "Madhur Jaffrey is a popular cookbook author, actress, and television presenter. She has written over 15 cookbooks, many of which focus on Indian cuisine. Jaffrey has also appeared in many films, including Merchant Ivory's ShakespeareWallah.",
+            "experience": 10,
+            "NumberOfRecipes": 50,
+            "likes": 10000,
+            "recipes": [
+                {
+                    "id": 1,
+                    "chefId": 1,
+                    "name": "Spaghetti Carbonara",
+                    "image": "https://i.ibb.co/xz8R5H3/pexels-photo-2092916.jpg",
+                    "ingredients": [
+                        "8 oz spaghetti",
+                        "4 oz pancetta",
+                        "2 cloves garlic",
+                        "2 eggs",
+                        "1/2 cup grated parmesan cheese",
+                        "Salt and pepper to taste"
+                    ],
+                    "cookingMethod": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook pancetta over medium heat until crispy. Add garlic and cook for 1 minute.\n3. In a small bowl, whisk together eggs and parmesan cheese.\n4. Drain spaghetti and reserve 1/2 cup of pasta water.\n5. Add spaghetti to skillet with pancetta and garlic. Pour egg mixture over spaghetti and stir until sauce thickens, adding pasta water as needed. Season with salt and pepper to taste.",
+                    "rating": 4.5,
+                    "isFavorite": true
+                },
+                {
+                    "id": 2,
+                    "chefId": 2,
+                    "name": "Baked Salmon",
+                    "image": "https://i.ibb.co/qyw4h2n/pexels-photo-958547.jpg",
+                    "ingredients": [
+                        "1 lb salmon fillet",
+                        "1 lemon",
+                        "2 tbsp olive oil",
+                        "Salt and pepper to taste"
+                    ],
+                    "cookingMethod": "1. Preheat oven to 400°F.\n2. Place salmon fillet in a baking dish. Drizzle with olive oil and sprinkle with salt and pepper.\n3. Cut lemon into thin slices and place on top of salmon.\n4. Bake in preheated oven for 15-20 minutes, or until salmon is cooked through and flakes easily with a fork.",
+                    "rating": 4.2,
+                    "isFavorite": false
+                },
+                {
+                    "id": 3,
+                    "chefId": 3,
+                    "name": "Enchiladas",
+                    "image": "https://i.ibb.co/KLTSXvx/pexels-photo-1117862.jpg",
+                    "ingredients": [
+                        "1 lb ground beef",
+                        "1 onion",
+                        "1 can enchilada sauce",
+                        "8 corn tortillas",
+                        "1 cup shredded cheddar cheese",
+                        "Salt and pepper to taste"
+                    ],
+                    "cookingMethod": "1. Preheat oven to 350°F.\n2. Brown ground beef in a large skillet over medium-high heat. Add onion and cook until softened, about 5 minutes.\n3. Add enchilada sauce to skillet and stir to combine.\n4. Heat tortillas in the microwave for 30 seconds to soften.\n5. Spoon beef mixture onto each tortilla and roll up tightly. Place rolled tortillas seam-side down in a baking dish.\n6. Sprinkle shredded cheese on top of tortillas.\n7. Bake in preheated oven for 20-25 minutes, or until cheese is melted and bubbly.",
+                    "rating": 4.7,
+                    "isFavorite": false
+                }
+            ]
         },
         {
             "id": 2,
-            "name": "Vikas Khanna",
-            "image": "https://i.ibb.co/Fw9GzmN/chef-2.jpg",
-            "experience": 20,
-            "recipes": 300,
-            "rating": 4.7
+            "picture": "https://i.ibb.co/bs2h95w/chef-5.jpg",
+            "name": "Nandini",
+            "description": "Nandini is a chef, food stylist, and blogger who is known for her innovative recipes and use of fresh, locally-sourced ingredients. She has worked as a consultant chef for various restaurants and has also authored several cookbooks.",
+            "experience": 8,
+            "NumberOfRecipes": 30,
+            "likes": 8000,
+            "recipes": [
+                {
+                    "id": 1,
+                    "chefId": 1,
+                    "name": "Chicken Tikka Masala",
+                    "image": "https://i.ibb.co/18qx9wC/pexels-photo-958545.jpg",
+                    "ingredients": [
+                        "1 lb boneless chicken breast, cut into chunks",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can tomato sauce",
+                        "1 cup heavy cream",
+                        "2 tbsp vegetable oil",
+                        "2 tsp garam masala",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste"
+                    ],
+                    "cookingMethod": "1. Heat oil in a large skillet over medium-high heat.\n2. Add onion, garlic, and ginger paste to skillet and cook until onion is softened.\n3. Add garam masala, turmeric, salt, and pepper to skillet and stir to combine.\n4. Add chicken to skillet and cook until browned on all sides.\n5. Pour tomato sauce over chicken and bring to a simmer.\n6. Stir in heavy cream and simmer for another 10-15 minutes, or until chicken is cooked through and sauce has thickened.",
+                    "rating": 4.8,
+                    "isFavorite": true
+                },
+                {
+                    "id": 2,
+                    "chefId": 2,
+                    "name": "Vegetable Biryani",
+                    "image": "https://i.ibb.co/qC4j2mv/indian-food-g66079b538-1280.jpg",
+                    "ingredients": [
+                        "2 cups basmati rice",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 cup mixed vegetables (peas, carrots, potatoes, etc.)",
+                        "2 cups vegetable broth",
+                        "2 tsp garam masala",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste"
+                    ],
+                    "cookingMethod": "1. Rinse rice in cold water until water runs clear.\n2. In a large pot, heat oil over medium-high heat. Add onion, garlic, and ginger paste and cook until onion is softened.\n3. Add garam masala, turmeric, salt, and pepper to pot and stir to combine.\n4. Add mixed vegetables to pot and cook for 2-3 minutes.\n5. Add rice to pot and stir to combine with vegetables.\n6. Pour vegetable broth over rice and bring to a boil.\n7. Reduce heat to low, cover, and simmer for 15-20 minutes, or until rice is cooked through and liquid has been absorbed.",
+                    "rating": 4.5,
+                    "isFavorite": false
+                },
+                {
+                    "id": 3,
+                    "chefId": 3,
+                    "name": "Palak Paneer",
+                    "image": "https://i.ibb.co/x7ftdcg/istockphoto-922783734-612x612.jpg",
+                    "ingredients": [
+                        "1 lb paneer, cut into cubes",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 bunch spinach, chopped",
+                        "1 can tomato sauce",
+                        "1 cup heavy cream",
+                        "2 tsp garam masala",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste"
+                    ],
+                    "cookingMethod": "1. In a large pot, heat oil over medium-high heat. Add onion, garlic, and ginger paste and cook until onion is softened.\n2. Add garam masala, turmeric, salt, and pepper to pot and stir to combine.\n3. Add chopped spinach to pot and cook until wilted.\n4. Pour tomato sauce over spinach and bring to a simmer.\n5. Add paneer to pot and stir to combine.Pour heavy cream over paneer and simmer for another 10-15 minutes, or until sauce has thickened and paneer is heated through.",
+                    "rating": 4.6,
+                    "isFavorite": false
+                }
+            ]
         },
         {
             "id": 3,
+            "picture": "https://i.ibb.co/VtfTBnS/chef-3.jpg",
             "name": "Tarla Dalal",
-            "image": "https://i.ibb.co/VtfTBnS/chef-3.jpg",
-            "experience": 25,
-            "recipes": 400,
-            "rating": 5
+            "description": " Tarla Dalal was a popular cookbook author and television personality. She authored over 100 cookbooks, many of which focused on Indian vegetarian cuisine. Dalal was also the host of the popular cooking show Cook It Up With Tarla Dalal.",
+            "experience": 12,
+            "NumberOfRecipes": 70,
+            "likes": 12000,
+            "recipes": [
+                {
+                    "id": 1,
+                    "chefId": 1,
+                    "name": "Butter Chicken",
+                    "image": "https://i.ibb.co/qC4j2mv/indian-food-g66079b538-1280.jpg",
+                    "ingredients": [
+                        "1 lb boneless chicken breast, cut into chunks",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can tomato puree",
+                        "1/2 cup butter",
+                        "1/2 cup heavy cream",
+                        "2 tsp garam masala",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste",
+                        "2 tbsp vegetable oil"
+                    ],
+                    "cookingMethod": "1. Heat oil in a large skillet over medium-high heat.\n2. Add onion, garlic, and ginger paste to skillet and cook until onion is softened.\n3. Add garam masala, turmeric, salt, and pepper to skillet and stir to combine.\n4. Add chicken to skillet and cook until browned on all sides.\n5. Pour tomato puree over chicken and bring to a simmer.\n6. Stir in butter and heavy cream and simmer for another 10-15 minutes, or until chicken is cooked through and sauce has thickened.",
+                    "rating": 4.7,
+                    "isFavorite": false
+                },
+                {
+                    "id": 2,
+                    "chefId": 2,
+                    "name": "Aloo Gobi",
+                    "image": "https://i.ibb.co/Zds3nvF/delicious-indian-food-tray.jpg",
+                    "ingredients": [
+                        "1 cauliflower, cut into florets",
+                        "2 potatoes, peeled and cubed",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can diced tomatoes",
+                        "2 tsp garam masala",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste",
+                        "2 tbsp vegetable oil"
+                    ],
+                    "cookingMethod": "1. Heat oil in a large skillet over medium-high heat.\n2. Add onion, garlic, and ginger paste to skillet and cook until onion is softened.\n3. Add garam masala, turmeric, salt, and pepper to skillet and stir to combine.\n4. Add cauliflower and potatoes to skillet and stir to coat with spice mixture.\n5. Pour diced tomatoes over vegetables and stir to combine.\n6. Cover skillet and cook over medium heat for 15-20 minutes, or until vegetables are tender.",
+                    "rating": 4.2,
+                    "isFavorite": true
+                },
+                {
+                    "id": 3,
+                    "chefId": 3,
+                    "name": "Masoor Dal",
+                    "image": "https://i.ibb.co/HKLYd8T/whole-chicken-grill-served-with-rice-garnish-white-plate.jpg",
+                    "ingredients": [
+                        "1 cup red lentils",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can diced tomatoes",
+                        "2 tsp cumin",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste",
+                        "4 cups water",
+                        "2 tbsp vegetable oil"
+                    ],
+                    "cookingMethod": "1. Rinse lentils in cold water until water runs clear.\n2. In a large pot, heat oil over medium-high heat. Add onion, garlic, and ginger paste and cook until onion is softened.\n3. Add cumin, turmeric, salt, and pepper to pot and stir to combine.\n4. Add lentils and water to pot and bring to a boil.\n5. Reduce heat to low, cover, and simmer for 20-25 minutes, or until lentils are cooked through and tender.\n6. Stir in diced tomatoes and simmer for another Reduce heat to low, cover, and simmer for 20-25 minutes, or until lentils are cooked through and tender.\n6. Stir in diced tomatoes and simmer for another 5-10 minutes, or until heated through.",
+                    "rating": 4.4,
+                    "isFavorite": false
+                }
+            ]
         },
         {
             "id": 4,
-            "name": "Madhur Jaffrey",
-            "image": "https://i.ibb.co/B2T2RSC/chef-4.jpg",
-            "experience": 30,
-            "recipes": 350,
-            "rating": 4.6
+            "picture": "https://i.ibb.co/Fw9GzmN/chef-2.jpg",
+            "name": "Vikas Khanna",
+            "description": " Vikas Khanna is a Michelin-starred Indian chef, restaurateur, and cookbook author. He has worked in some of the world's top kitchens, including the Ritz-Carlton, New York and Junoon in New York City. Khanna has also been a judge on the popular cooking competition show MasterChef India.",
+            "experience": 6,
+            "NumberOfRecipes": 20,
+            "likes": 5000,
+            "recipes": [
+                {
+                    "id": 1,
+                    "chefId": 1,
+                    "name": "Aloo Gobi",
+                    "image": "https://i.ibb.co/qC4j2mv/indian-food-g66079b538-1280.jpg",
+                    "ingredients": [
+                        "1 cauliflower, cut into florets",
+                        "2 potatoes, peeled and cut into small cubes",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "2 tomatoes, chopped",
+                        "1 tsp cumin seeds",
+                        "1 tsp coriander powder",
+                        "1/2 tsp turmeric",
+                        "Salt and pepper to taste",
+                        "2 tbsp vegetable oil"
+                    ],
+                    "cookingMethod": "1. Heat oil in a large pot over medium-high heat.\n2. Add cumin seeds to pot and cook until they start to sizzle.\n3. Add onion, garlic, and ginger paste to pot and cook until onion is softened.\n4. Add coriander powder, turmeric, salt, and pepper to pot and stir to combine.\n5. Add cauliflower and potatoes to pot and stir to combine with spices.\n6. Pour enough water into pot to just cover the vegetables. Bring to a boil.\n7. Reduce heat to low, cover, and simmer for 20-25 minutes, or until vegetables are tender.\n8. Add chopped tomatoes to pot and stir to combine. Simmer for another 5 minutes, or until tomatoes have softened and mixture has thickened.",
+                    "rating": 4.3,
+                    "isFavorite": false
+                },
+                {
+                    "id": 2,
+                    "chefId": 2,
+                    "name": "Butter Chicken",
+                    "image": "https://i.ibb.co/HKLYd8T/whole-chicken-grill-served-with-rice-garnish-white-plate.jpg",
+                    "ingredients": [
+                        "1 lb boneless chicken breast, cut into chunks",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can tomato puree",
+                        "1 cup heavy cream",
+                        "2 tbsp butter",
+                        "2 tsp garam masala",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste"
+                    ],
+                    "cookingMethod": "1. Heat butter in a large skillet over medium-high heat.\n2. Add onion, garlic, and ginger paste to skillet and cook until onion is softened.\n3. Add garam masala, turmeric, salt, and pepper to skillet and stir to combine.\n4. Add chicken to skillet and cook until browned on all sides.\n5. Pour tomato puree over chicken and bring to a simmer.\n6. Stir in heavy cream and simmer for another 10-15 minutes, or until chicken is cooked through and sauce has thickened.",
+                    "rating": 4.9,
+                    "isFavorite": true
+                },
+                {
+                    "id": 3,
+                    "chefId": 3,
+                    "name": "Dal Makhani",
+                    "image": "https://i.ibb.co/qC4j2mv/indian-food-g66079b538-1280.jpg",
+                    "ingredients": [
+                        "1 cup black lentils",
+                        "1/2 cup kidney beans",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can tomato puree",
+                        "1 cup heavy cream",
+                        "2 tbsp butter",
+                        "2 tsp garam masala",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste"
+                    ],
+                    "cookingMethod": "1. Rinse lentils and kidney beans in cold water until water runs clear. Soak in water for at least 4 hours or overnight.\n2. Drain and rinse lentils and beans. Place in a large pot with enough water to cover and bring to a boil.\n3. Reduce heat to low, cover, and simmer for 1-2 hours, or until lentils and beans are tender.\n4. Heat butter in a large skillet over medium-high heat.\n5. Add onion, garlic, and ginger paste to skillet and cook until onion is softened.\n6. Add garam masala, turmeric, salt, and pepper to skillet and stir to combine.\n7. Pour tomato puree over skillet and bring to a simmer.\n8. Add cooked lentils and beans to skillet and stir to combine. Simmer for another 10-15 minutes.\n9. Stir in heavy cream and simmer for another 10-15 minutes, or until sauce has thickened.",
+                    "rating": 4.7,
+                    "isFavorite": false
+                }
+            ]
         },
         {
             "id": 5,
-            "name": "Nandini",
-            "image": "https://i.ibb.co/bs2h95w/chef-5.jpg",
+            "picture": "https://i.ibb.co/Y8bhT42/chef-6.jpg",
+            "name": "Kunal Kapur",
+            "description": " Kunal Kapur is an Indian celebrity chef, restaurateur, and television personality. He has hosted several cooking shows, including MasterChef India and My Yellow Table. Kapur has also authored several cookbooks and is known for his modern take on traditional Indian cuisine.",
             "experience": 15,
-            "recipes": 250,
-            "rating": 4.2
+            "NumberOfRecipes": 90,
+            "likes": 15000,
+            "recipes": [
+                {
+                    "id": 1,
+                    "chefId": 1,
+                    "name": "Butter Chicken",
+                    "image": "https://i.ibb.co/x7ftdcg/istockphoto-922783734-612x612.jpg",
+                    "ingredients": [
+                        "1 lb boneless chicken breast, cut into chunks",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can tomato puree",
+                        "1 cup heavy cream",
+                        "2 tbsp butter",
+                        "2 tsp garam masala",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste"
+                    ],
+                    "cookingMethod": "1. Heat butter in a large skillet over medium-high heat.\n2. Add onion, garlic, and ginger paste to skillet and cook until onion is softened.\n3. Add garam masala, turmeric, salt, and pepper to skillet and stir to combine.\n4. Add chicken to skillet and cook until browned on all sides.\n5. Pour tomato puree over chicken and bring to a simmer.\n6. Stir in heavy cream and simmer for another 10-15 minutes, or until chicken is cooked through and sauce has thickened.",
+                    "rating": 4.7,
+                    "isFavorite": false
+                },
+                {
+                    "id": 2,
+                    "chefId": 2,
+                    "name": "Aloo Gobi",
+                    "image": "https://i.ibb.co/Zds3nvF/delicious-indian-food-tray.jpg",
+                    "ingredients": [
+                        "1 large potato, peeled and chopped",
+                        "1 head of cauliflower, chopped",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can diced tomatoes",
+                        "2 tsp cumin",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste",
+                        "2 tbsp vegetable oil"
+                    ],
+                    "cookingMethod": "1. Heat oil in a large skillet over medium-high heat.\n2. Add onion, garlic, and ginger paste to skillet and cook until onion is softened.\n3. Add cumin, turmeric, salt, and pepper to skillet and stir to combine.\n4. Add potato and cauliflower to skillet and cook for 5-7 minutes, stirring occasionally.\n5. Pour diced tomatoes over vegetables and stir to combine.\n6. Cover skillet and simmer for 10-15 minutes, or until vegetables are tender.",
+                    "rating": 4.3,
+                    "isFavorite": true
+                },
+                {
+                    "id": 3,
+                    "chefId": 3,
+                    "name": "Chicken Korma",
+                    "image": "https://i.ibb.co/KLTSXvx/pexels-photo-1117862.jpg",
+                    "ingredients": [
+                        "1 lb boneless chicken breast, cut into chunks",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can coconut milk",
+                        "1 tbsp garam masala",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste",
+                        "2 tbsp vegetable oil"
+                    ],
+                    "cookingMethod": "1. Heat oil in a large skillet over medium-high heat.\n2. Add onion, garlic, and ginger paste to skillet and cook until onion is softened.\n3. Add garam masala, turmeric, salt, and pepper to skillet and stir to combine.\n4. Add chicken to skillet and cook until browned on all sides.\n5. Pour coconut milk over chicken and bring to a simmer.\n6. Cover skillet and simmer for 10-15 minutes, or until chicken is cooked through and sauce has thickened.",
+                    "rating": 4.5,
+                    "isFavorite": false
+                }
+            ]
         },
         {
             "id": 6,
-            "name": "Kunal Kapur",
-            "image": "https://i.ibb.co/Y8bhT42/chef-6.jpg",
-            "experience": 10,
-            "recipes": 200,
-            "rating": 4
+            "picture": "https://i.ibb.co/PzRJsyd/chef-1.jpg",
+            "name": "Sanjeev Kapoor",
+            "description": "Sanjeev Kapoor is a popular Indian chef, restaurateur, and television personality. He is the host of the popular cooking show Khana Khazana and has authored several cookbooks. Kapoor is known for his unique take on Indian cuisine, which blends traditional techniques with modern flavors.",
+            "experience": 9,
+            "NumberOfRecipes": 40,
+            "likes": 9000,
+            "recipes": [
+                {
+                    "id": 1,
+                    "chefId": 1,
+                    "name": "Butter Chicken",
+                    "image": "https://i.ibb.co/x7ftdcg/istockphoto-922783734-612x612.jpg",
+                    "ingredients": [
+                        "1 lb boneless chicken breast, cut into chunks",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can tomato puree",
+                        "1 cup heavy cream",
+                        "2 tbsp butter",
+                        "2 tsp garam masala",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste"
+                    ],
+                    "cookingMethod": "1. Heat butter in a large skillet over medium-high heat.\n2. Add onion, garlic, and ginger paste to skillet and cook until onion is softened.\n3. Add garam masala, turmeric, salt, and pepper to skillet and stir to combine.\n4. Add chicken to skillet and cook until browned on all sides.\n5. Pour tomato puree over chicken and bring to a simmer.\n6. Stir in heavy cream and simmer for another 10-15 minutes, or until chicken is cooked through and sauce has thickened.",
+                    "rating": 4.7,
+                    "isFavorite": false
+                },
+                {
+                    "id": 2,
+                    "chefId": 2,
+                    "name": "Aloo Gobi",
+                    "image": "https://i.ibb.co/KLTSXvx/pexels-photo-1117862.jpg",
+                    "ingredients": [
+                        "1 large potato, peeled and chopped",
+                        "1 head of cauliflower, chopped",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can diced tomatoes",
+                        "2 tsp cumin",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste",
+                        "2 tbsp vegetable oil"
+                    ],
+                    "cookingMethod": "1. Heat oil in a large skillet over medium-high heat.\n2. Add onion, garlic, and ginger paste to skillet and cook until onion is softened.\n3. Add cumin, turmeric, salt, and pepper to skillet and stir to combine.\n4. Add potato and cauliflower to skillet and cook for 5-7 minutes, stirring occasionally.\n5. Pour diced tomatoes over vegetables and stir to combine.\n6. Cover skillet and simmer for 10-15 minutes, or until vegetables are tender.",
+                    "rating": 4.3,
+                    "isFavorite": true
+                },
+                {
+                    "id": 3,
+                    "chefId": 3,
+                    "name": "Chicken Korma",
+                    "image": "https://i.ibb.co/qyw4h2n/pexels-photo-958547.jpg",
+                    "ingredients": [
+                        "1 lb boneless chicken breast, cut into chunks",
+                        "1 onion, chopped",
+                        "2 cloves garlic, minced",
+                        "1 tbsp ginger paste",
+                        "1 can coconut milk",
+                        "1 tbsp garam masala",
+                        "1 tsp turmeric",
+                        "Salt and pepper to taste",
+                        "2 tbsp vegetable oil"
+                    ],
+                    "cookingMethod": "1. Heat oil in a large skillet over medium-high heat.\n2. Add onion, garlic, and ginger paste to skillet and cook until onion is softened.\n3. Add garam masala, turmeric, salt, and pepper to skillet and stir to combine.\n4. Add chicken to skillet and cook until browned on all sides.\n5. Pour coconut milk over chicken and bring to a simmer.\n6. Cover skillet and simmer for 10-15 minutes, or until chicken is cooked through and sauce has thickened.",
+                    "rating": 4.5,
+                    "isFavorite": false
+                }
+            ]
         }
     ]
 }
